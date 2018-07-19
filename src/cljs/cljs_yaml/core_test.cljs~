@@ -1,0 +1,9 @@
+(ns cljs-yaml.core-test
+  (:require [cljs-yaml.core :refer []]
+            [cljs.test :refer [deftest is]]))
+
+
+(deftest deserialize-test
+  (let [str "aaa 3"]
+    (is (= {} (deserialize str)))))
+

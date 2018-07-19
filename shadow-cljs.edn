@@ -1,0 +1,15 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/cljs"]
+ :http {:port 9003}
+
+ :dependencies
+ []
+
+ :builds
+ {:test
+  {:target :browser-test
+   :test-dir "resources/public/js/test"
+   :devtools {:http-port 8001
+              :http-root "resources/public/js/test"}
+   :output-dir "./dist"}}}

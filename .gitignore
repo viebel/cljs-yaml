@@ -1,4 +1,4 @@
-pom.xml
+nopom.xml
 pom.xml.asc
 *.jar
 *.class
@@ -12,3 +12,7 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+node_modules
+.shadow-cljs/
+dist/
+resources/public/js

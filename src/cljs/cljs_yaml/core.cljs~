@@ -1,0 +1,3 @@
+(ns cljs-yaml.core
+  (:require "js-yaml" :as yaml))
+
