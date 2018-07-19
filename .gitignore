@@ -1,5 +1,6 @@
 nopom.xml
 pom.xml.asc
+pom.xml
 *.jar
 *.class
 /lib/
